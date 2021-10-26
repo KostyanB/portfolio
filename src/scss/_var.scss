@@ -1,0 +1,42 @@
+//colors
+$blue: #36b5b9;
+$gray: #a6d1d3;
+$gray_opacity: rgba(166, 209, 211, .3);
+$lviol: #444469;
+$dviol: #2e2e57;
+$dblue: #1a1a50;
+//fonts
+$l-font: clamp(16px, 3vw, 24px);
+$xl-font: clamp(30px, 5vw ,40px);
+$m-font: clamp(14px, 2.5vw, 20px);
+$s-font: clamp(10px, 1.5vw, 14px);
+$space: 0.5rem;
+$space-sm: $space / 2;
+$space-lg: $space * 4;
+//transition
+$transition-time: 300ms ease;
+//icons sizes
+$big-icon: 50px;
+$small-icon: 40px;
+
+// flex
+%flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%flex-center-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+%grid-between {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}

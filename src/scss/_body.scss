@@ -1,0 +1,57 @@
+/* Global style */
+body {
+    font: {
+        family: "CoFo Sans";
+        style: normal;
+        weight: normal;
+        size: $l-font;
+    }
+    color:  $blue;
+    line-height: 1.2;
+    background-image: url("img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $gray_opacity;
+        border-radius: 100px;
+    }
+
+    // вкл стиль полосы скролла
+    // &::-webkit-scrollbar-track {
+    //     background-color: $lviol;
+    // }
+}
+
+a {
+    font: {
+        family: "CoFo Sans";
+        style: normal;
+        weight: normal;
+        size: $l-font;
+    }
+    color:  $blue;
+    line-height: 1.2;
+}
+
+svg {
+    width: $big-icon;
+    height: $big-icon;
+
+    @media (max-width: 576px) {
+        width: $small-icon;
+        height: $small-icon;
+    }
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 97%;
+}

@@ -1,0 +1,25 @@
+/node_modules/
+.jshintrc
+.eslintrc
+/.vscode/
+/plugins/
+/.firebase/
+.firebaserc
+firebase.json
+
+
+package-lock.json
+read_me.txt
+
+# production
+/build/
+
+# if outside src
+/css/
+/fonts/
+/images/
+
+# for server imitation
+server.php
+draft.js
+src/modules/calcFn.js

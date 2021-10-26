@@ -1,0 +1,16 @@
+/* Main block style*/
+.main {
+    @extend %flex-center-col;
+    padding-top: 3vh;
+    margin-top: 10px;
+
+    &__title {
+        font-size: $xl-font;
+        margin-bottom: 2vh;
+    }
+    &__container {
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap: clamp(1rem, 2vw, 24px);
+    }
+}

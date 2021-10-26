@@ -1,0 +1,149 @@
+/* My works properties */
+.works {
+
+    &__box {
+        display: grid;
+        grid-template:
+            [box-start] "tagline actions" [box-end] /
+            [box-start] 1fr auto [box-end];
+        position: relative;
+        overflow: hidden;
+        padding: $space-sm;
+        color: $blue;
+        border: 4px solid $gray_opacity;
+        transition: border-color $transition-time;
+
+        &:hover {
+            border-color: transparent;
+        }
+
+        & > *,
+        &::before {
+            grid-area: box;
+        }
+
+        &::before {
+            content: "";
+            position: relative;
+            background: black;
+            opacity: 0.6;
+            z-index: -1;
+            transition: opacity $transition-time;
+        }
+
+        &:hover &_title,
+        &:hover &_tag,
+        &:hover::before {
+            opacity: 0;
+        }
+
+        &:hover &_tagline {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        &:hover &_img {
+            transform: scale(1.05);
+        }
+
+        &_tag,
+        &_title,
+        &::before {
+            transition: opacity $transition-time;
+        }
+
+        &_tagline {
+            transition: opacity, transform $transition-time;
+        }
+
+        &_tag {
+            place-self: start;
+            padding: $space;
+            color: $dviol;
+            font-size: $s-font;
+            line-height: 1.2;
+            letter-spacing: 0.05rem;
+            background-color: $gray;
+            max-width: 60%;
+            opacity: 1;
+        }
+
+        &_title {
+            place-self: center;
+            padding: $space;
+            font-size: $xl-font;
+            line-height: 1.2;
+            font-weight: 600;
+            font-style: italic;
+            color: $gray;
+            text-align: center;
+            user-select: none;
+
+            a {
+                color: inherit;
+                font: inherit;
+                text-decoration: none;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 10;
+                }
+            }
+        }
+
+        &_tagline {
+            grid-area: tagline;
+            grid-column: 1 / -1;
+            place-self: end start;
+            padding: $space-sm;
+            font-size: $m-font;
+            line-height: 1.2;
+            font-style: italic;
+            color: $dviol;
+            text-align: center;
+            user-select: none;
+            background-color: $gray;
+            opacity: 0;
+            transform: translateY(100%);
+        }
+
+        &_actions {
+            @extend %flex-center;
+            height: $big-icon + 10px;
+            grid-area: actions;
+            place-self: start;
+            position: relative;
+            gap: 5px;
+            padding: 5px;
+            @media (max-width: 576px) {
+                height: $small-icon + 10px;
+            }
+        }
+
+        &_btn {
+            @extend %flex-center;
+            cursor: pointer;
+
+            svg {
+                fill: $gray;
+
+                &:hover {
+                    fill: $dviol;
+                }
+            }
+        }
+
+        &_img {
+            position: relative;
+            inline-size: 100%;
+            height: 100%;
+            z-index: -2;
+            transition: transform $transition-time;
+        }
+    }
+}

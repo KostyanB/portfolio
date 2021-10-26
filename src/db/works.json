@@ -1,0 +1,110 @@
+[
+    {
+        "id": "1",
+        "name": "Cinema-booker",
+        "demoUrl": "https://cinema-booker-51e5e.web.app/",
+        "gitUrl": "https://github.com/KostyanB/cinema",
+        "imgSrc": "img/cinema.jpg",
+        "stack": "React JS, Styled Components, Router, Hooks",
+        "description": "`Cinema-booker`. SPA-приложение по дизайн-макету. Реализовано бронирование билетов. Выбор сеанса и мест. Загрузка данных и сохранение брони в течение сессии или до изменения параметров. Просмотр трейлера."
+    },
+    {
+        "id": "2",
+        "name": "Lomoda",
+        "demoUrl": "https://lomoda-spa.firebaseapp.com/",
+        "gitUrl": "https://github.com/KostyanB/Lomoda-SPA",
+        "imgSrc": "img/lomoda.jpg",
+        "stack": "React JS, Redux/Toolkit, Styled Components, Router, Hooks, SCSS",
+        "description": "Pet-проект `Lomoda`. SPA-приложение по дизайн-макету известного интернет-магазина. Загрузка товаров restAPI, формирование корзины и отправка заказа. Настройки приложения в json файле. Хранение локации и корзины в LocalStorage браузера."
+    },
+    {
+        "id": "3",
+        "name": "MrMagamba",
+        "demoUrl": "https://mrmagamba.web.app/",
+        "gitUrl": "https://github.com/KostyanB/MrMagamba",
+        "imgSrc": "img/mrmagamba.jpg",
+        "stack": "React JS, Styled Components, Firebase, Google Auth, Nodemailer",
+        "description": "Pet-проект. Приложение для онлайн заказа из ресторана-бургерной. Регистрация через Google Auth, формирование корзины, отправка на сервер и подтверждение на почту."
+    },
+    {
+        "id": "4",
+        "name": "Melody-Home",
+        "demoUrl": "https://melody-home-32b02.web.app/",
+        "gitUrl": "https://github.com/KostyanB/Melody-Home",
+        "imgSrc": "img/home.jpg",
+        "stack": "React JS, Styled Components",
+        "description": "Приложение по дизайн-макету сайта продаж квартир ЖК `Мелодия`. Реализована главная страница и модальное окно плана этажа. Интерактивный выбор и динамическая отрисовка SVG-подсветки."
+    },
+    {
+        "id": "5",
+        "name": "Fitness-body",
+        "demoUrl": "https://fitnessbody-1bf35.web.app",
+        "gitUrl": "https://github.com/KostyanB/FitnessBody",
+        "imgSrc": "img/fitness.jpg",
+        "stack": "Native JS, Fetch API",
+        "description": "По дизайн-макету фитнесс-клуба `Тело`. Слайдеры, модальные окна, калькулятор, валидация данных, отправка данных на сервер и уведомление пользователя."
+    },
+    {
+        "id": "6",
+        "name": "ToDo",
+        "demoUrl": "todospa-b7372.web.app",
+        "gitUrl": "https://kostyanb.github.io/ToDo-SPA/",
+        "imgSrc": "img/todo.jpg",
+        "stack": "React JS, Redux/Toolkit, Styled Components, async API",
+        "description": "Ну и куда же без ToDo-шки. Добавление, удаление, редактирование и перемещение между листами. В демо синхронизация с сервером fake-API. Прелоадер и обработка ошибок сервера с оповещением пользователя."
+    },
+    {
+        "id": "7",
+        "name": "Planctonics-chat",
+        "demoUrl": "https://planctonics-chat.web.app/",
+        "gitUrl": "https://github.com/KostyanB/PlanctonicsChat",
+        "imgSrc": "img/chat.jpg",
+        "stack": "React JS, Styled Components, async API",
+        "description": "Тестовое задание. Внутренний чат компании. 2 раздела, авторизация (Вася или Маруся), async загрузка из JSON, хранение переписки в LocalStorage, редактирование и удаление своих сообщений."
+    },
+    {
+        "id":"8",
+        "name": "Game-blast",
+        "demoUrl": "https://mygame-blast.web.app/",
+        "gitUrl": "https://github.com/KostyanB/gameBlast",
+        "imgSrc": "img/gameblast.jpg",
+        "stack": "Native JS, HTML5, CSS3",
+        "description": "Игра по мотивам браузерных blast-games. Цель - набрать 100 очков за 25 ходов. Пользователь настраивает размеры поля и количество цветов тайтлов. Минимальное сжигание - 3. Расширенные настройки задаются в JSON файле и получаются с сервера по API при запуске."
+    },
+    {
+        "id": "9",
+        "name": "Venom-2",
+        "demoUrl": "https://venom2-promo.web.app/",
+        "gitUrl": "https://github.com/KostyanB/venom2",
+        "imgSrc": "img/venom.jpg",
+        "stack": "Native JS, HTML5, CSS3",
+        "description": "Промо-страница премьеры фильма Venom-2. Обратный отсчет времени до премьеры. Модальный агент - отправка заявки на билеты. Просмотр трейлера."
+    },
+    {
+        "id": "10",
+        "name": "Wildpotatos",
+        "demoUrl": "https://wildpotatos-53c4a.web.app/",
+        "gitUrl": "https://github.com/KostyanB/WildPotatos",
+        "imgSrc": "img/wild.jpg",
+        "stack": "Native JS, Fetch API, HTML5, CSS3",
+        "description": "Имитация известного интернет-магазина W**dbe**ies. Загрузка товаров с сервера. Динамическое фильтрация карточек товаров. Управление корзиной. Отправка заказа на сервер. Валидация данных пользователя при отправке заказа."
+    },
+    {
+        "id": "11",
+        "name": "Calculator",
+        "demoUrl": "https://testcalc-f96a3.web.app/",
+        "gitUrl": "https://github.com/KostyanB/Calculator",
+        "imgSrc": "img/calc.jpg",
+        "stack": "Native JS, HTML5, CSS3 / SCSS",
+        "description": "Калькулятор. Ввод математического выражения с экрана или клавиатуры. Операции +-*/ и скобки. 12 разрядов результат. Валидация ввода: не число, скобки, деление на 0. С клавиатуры `Backspase` и `Delete` удаление, `Esc` сброс, `Enter` расчет."
+    },
+    {
+        "id": "12",
+        "name": "Personal Budget",
+        "demoUrl": "https://kostyanb.github.io/personalBudget",
+        "gitUrl": "https://github.com/KostyanB/personalBudget",
+        "imgSrc": "img/personal.jpg",
+        "stack": "Native JS, ООП, HTML5, CSS3",
+        "description": "Калькулятор личного бюджета. Расчет бюджета и срока накопления желаемой суммы на основании введенных пользователем данных о доходах, расходах, банковском депозите и суммы накопления."
+    }
+]
