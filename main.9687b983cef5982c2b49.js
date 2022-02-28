@@ -8201,7 +8201,7 @@ module.exports = __webpack_require__(4411);
 
 /***/ }),
 
-/***/ 657:
+/***/ 2746:
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8258,7 +8258,7 @@ var drawWorks = function drawWorks() {
         imgSrc = item.imgSrc,
         stack = item.stack,
         description = item.description;
-    return acc + "\n            <!-- ".concat(name, " -->\n            <article class=\"works__box box").concat(id, "\">\n                <img class=\"works__box_img\" src=\"").concat(imgSrc, "\" width=\"800\" height=\"600\" alt=\"").concat(name, "\"/>\n                <h2 class=\"works__box_title\">\n                    <a href=\"").concat(demoUrl, "\" aria-label=\"\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u043D\u0430 \u0434\u0435\u043C\u043E-\u0441\u0430\u0439\u0442 ").concat(name, "\">\n                        ").concat(name, "\n                    </a>\n                </h2>\n                <p class=\"works__box_description\">\n                    ").concat(description, "\n                </p>\n                <div class=\"works__box_stack\">\n                    ").concat(stack, "\n                </div>\n                <div class=\"works__box_actions\">\n                    <a href=\"").concat(demoUrl, "\" class=\"works__box_btn\">\n                        <svg class=\"demo-").concat(name, "\">\n                            <use xlink:href=\"img/icons.svg#view\" />\n                        </svg>\n                    </a>\n                    <a href=\"").concat(gitUrl, "\" class=\"works__box_btn\">\n                        <svg class=\"git-").concat(name, "\">\n                            <use xlink:href=\"img/icons.svg#github\" />\n                        </svg>\n                    </a>\n\n                </div>\n            </article>\n        ");
+    return acc + "\n            <!-- ".concat(name, " -->\n            <article class=\"works__box box").concat(id, "\">\n                <img class=\"works__box_img\" src=\"").concat(imgSrc, "\" width=\"800\" height=\"600\" alt=\"").concat(name, "\" loading=\"lazy\"/>\n                <h2 class=\"works__box_title\">\n                    <a href=\"").concat(demoUrl, "\" aria-label=\"\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u043D\u0430 \u0434\u0435\u043C\u043E-\u0441\u0430\u0439\u0442 ").concat(name, "\">\n                        ").concat(name, "\n                    </a>\n                </h2>\n                <p class=\"works__box_description\">\n                    ").concat(description, "\n                </p>\n                <div class=\"works__box_stack\">\n                    ").concat(stack, "\n                </div>\n                <div class=\"works__box_actions\">\n                    <a href=\"").concat(demoUrl, "\" class=\"works__box_btn\">\n                        <svg class=\"demo-").concat(name, "\">\n                            <use xlink:href=\"img/icons.svg#view\" />\n                        </svg>\n                    </a>\n                    <a href=\"").concat(gitUrl, "\" class=\"works__box_btn\">\n                        <svg class=\"git-").concat(name, "\">\n                            <use xlink:href=\"img/icons.svg#github\" />\n                        </svg>\n                    </a>\n\n                </div>\n            </article>\n        ");
   }, '');
 };
 
@@ -8274,7 +8274,24 @@ var arrowTop = function arrowTop() {
 };
 
 /* harmony default export */ var modules_arrowTop = (arrowTop);
+;// CONCATENATED MODULE: ./src/modules/showDialog.js
+var showDialog = function showDialog() {
+  var myDialog = document.querySelector('#my-dialog');
+  setTimeout(function () {
+    return myDialog.showModal();
+  }, 500);
+
+  var handleDialog = function handleDialog(e) {
+    var closeTarget = e.target.classList.contains('dialog__close') || e.target === myDialog;
+    if (closeTarget) myDialog.close();
+  };
+
+  myDialog.addEventListener('click', handleDialog);
+};
+
+/* harmony default export */ var modules_showDialog = (showDialog);
 ;// CONCATENATED MODULE: ./src/index.js
+
 
 
 
@@ -8282,6 +8299,7 @@ var arrowTop = function arrowTop() {
 modules_drawLinks();
 modules_drawWorks();
 modules_arrowTop();
+modules_showDialog();
 
 /***/ }),
 
@@ -11320,7 +11338,7 @@ try {
 /******/ 	// Load entry module and return exports
 /******/ 	__webpack_require__(6981);
 /******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__(657);
+/******/ 	var __webpack_exports__ = __webpack_require__(2746);
 /******/ 	
 /******/ })()
 ;
