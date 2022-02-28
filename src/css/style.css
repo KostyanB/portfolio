@@ -221,7 +221,7 @@ svg {
   }
 }
 .header__title {
-  font-size: clamp(30px, 5vw ,40px);
+  font-size: clamp(30px, 5vw, 40px);
   line-height: 1.2;
   margin-bottom: 2vh;
   text-align: center;
@@ -324,7 +324,7 @@ svg {
   margin-top: 10px;
 }
 .main__title {
-  font-size: clamp(30px, 5vw ,40px);
+  font-size: clamp(30px, 5vw, 40px);
   margin-bottom: 2vh;
 }
 .main__container {
@@ -509,7 +509,7 @@ svg {
 .works__box_title {
   place-self: center;
   padding: 0.5rem;
-  font-size: clamp(30px, 5vw ,40px);
+  font-size: clamp(30px, 5vw, 40px);
   line-height: 1.2;
   font-weight: 600;
   font-style: italic;
@@ -600,4 +600,102 @@ svg {
   -o-transition: transform 300ms ease;
   transition: transform 300ms ease;
   transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+.dialog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  -webkit-animation: fadeIn 300ms ease-in-out;
+          animation: fadeIn 300ms ease-in-out;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.dialog[open] {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+.dialog__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+  position: relative;
+  max-width: 90%;
+  border-radius: 8px;
+  border: none;
+  padding: 50px 30px 30px 30px;
+  background-color: #888888;
+  font-weight: 600;
+  color: #2e2e57;
+}
+.dialog__message > p {
+  text-align: center;
+}
+.dialog__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3em;
+  height: 3em;
+  color: inherit;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.dialog__close::before, .dialog__close::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  left: 5px;
+  border-bottom: 1px solid #2e2e57;
+}
+.dialog__close::before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.dialog__close::after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.dialog__close:hover::before, .dialog__close:hover::after {
+  border-color: #36b5b9;
 }

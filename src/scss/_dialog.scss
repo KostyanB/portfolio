@@ -1,0 +1,86 @@
+.dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  z-index: 100;
+  background: $overlayColor;
+  backdrop-filter: blur(3px);
+  animation: fadeIn 300ms ease-in-out;
+  transform: scale(0);
+  transition: transform 0.5s;
+
+  &[open] {
+    transform: scale(1);
+  }
+
+  &__message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    max-width: 90%;
+    border-radius: 8px;
+    border: none;
+    padding: 50px 30px 30px 30px;
+    background-color: $messageBack;
+    font-weight: 600;
+    color: $dviol;
+
+    & > p {
+      text-align: center;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3em;
+    height: 3em;
+    color: inherit;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      left: 5px;
+      border-bottom: 1px solid $dviol;
+    }
+
+    &::before {
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    &:hover {
+      &::before,
+      &::after {
+        border-color: $blue;
+      }
+    }
+  }
+}

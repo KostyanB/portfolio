@@ -13,7 +13,7 @@ const drawWorks = () => {
         `
             <!-- ${name} -->
             <article class="works__box box${id}">
-                <img class="works__box_img" src="${imgSrc}" width="800" height="600" alt="${name}"/>
+                <img class="works__box_img" src="${imgSrc}" width="800" height="600" alt="${name}" loading="lazy"/>
                 <h2 class="works__box_title">
                     <a href="${demoUrl}" aria-label="Перейти на демо-сайт ${name}">
                         ${name}
