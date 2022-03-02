@@ -1,4 +1,4 @@
-import './css/style.css';
+import './scss/style.scss';
 import drawLinks from './modules/drawLinks';
 import drawWorks from './modules/drawWorks';
 import arrowTop from './modules/arrowTop';

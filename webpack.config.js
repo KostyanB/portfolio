@@ -8,8 +8,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const mode = process.env.NODE_ENV;
 const isDev = mode === 'development';
 
-const generateFilename = ext =>
-  isDev ? `[name].${ext}` : `[name].[contenthash].${ext}`;
+const generateFilename = (ext) => (isDev ? `[name].${ext}` : `[name].[contenthash].${ext}`);
 
 module.exports = {
   entry: ['@babel/polyfill', './src/index.js'],
@@ -67,8 +66,8 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.css$/i,
-        use: [MiniCssExtractPlugin.loader, 'css-loader?url=false'],
+        test: /\.(scss|css)$/i,
+        use: [MiniCssExtractPlugin.loader, 'css-loader?url=false', 'sass-loader'],
       },
     ],
   },
