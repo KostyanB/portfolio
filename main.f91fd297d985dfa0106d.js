@@ -8230,16 +8230,13 @@ var drawLinks = function drawLinks() {
 };
 
 /* harmony default export */ var modules_drawLinks = (drawLinks);
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.sort.js
-var es_array_sort = __webpack_require__(2707);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.js
 var es_symbol = __webpack_require__(2526);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.description.js
 var es_symbol_description = __webpack_require__(1817);
 ;// CONCATENATED MODULE: ./src/db/works.json
-var works_namespaceObject = JSON.parse('[{"id":"1","name":"Promo iPhone13","demoUrl":"https://iphone-promo.web.app/","gitUrl":"https://github.com/KostyanB/promo-iphone13","imgSrc":"img/iphone.jpg","stack":"React JS, SPA, Styled Components, React-Spring animation, React Router, Suspense loading, RestAPI","description":"`Promo iPhone13`. Single Page Application. Полностью реализована промо-страница. Выбор модели, просмотр характеристик, добавление Cross-sell товаров, отправка заказа."},{"id":"2","name":"Cinema-booker","demoUrl":"https://cinema-booker-51e5e.web.app/","gitUrl":"https://github.com/KostyanB/cinema","imgSrc":"img/cinema.jpg","stack":"React, SPA, Styled Components, Router, Hooks,  RestAPI","description":"`Cinema-booker`. Сайт кинотеатра. Реализован блок выбора сеанса и бронирования билетов. Сохранение брони в течение сессии. Синхронизация с сервером. Просмотр трейлера."},{"id":"3","name":"Lomoda","demoUrl":"https://lomoda-spa.firebaseapp.com/","gitUrl":"https://github.com/KostyanB/Lomoda-SPA","imgSrc":"img/lomoda.jpg","stack":"React JS, Redux/Toolkit, Styled Components, Router, Hooks, SCSS, SPA","description":"Pet-проект `Lomoda`. Приложение по дизайн-макету известного интернет-магазина. Загрузка товаров restAPI, формирование корзины и отправка заказа. Настройки приложения в json файле. Хранение локации и корзины в LocalStorage браузера."},{"id":"4","name":"Melody-Home","demoUrl":"https://melody-home-32b02.web.app/","gitUrl":"https://github.com/KostyanB/Melody-Home","imgSrc":"img/home.jpg","stack":"React JS, Styled Components, React Hooks, SVG","description":"Cайт продаж квартир ЖК `Мелодия`. Реализованы главная страница и модальное окно плана этажа. Интерактивный выбор этажа квартиры на этаже. Динамическое SVG."},{"id":"5","name":"Sorting tab","demoUrl":"https://sorting-tab.web.app/","gitUrl":"https://github.com/KostyanB/sorting-tab","imgSrc":"img/sorting.jpg","stack":"React JS, Recoil, Styled Components, React Animation, Drag Scroll, RestAPI, Dark theme","description":"`Sorting tab`. DragScroll. Поддержка темной темы. Загрузка данных по АПИ. Расчет и вывод суммарного времени посещений по дням и за месяц. Сортировка по столбцам. Фильтрация по имени / части имени и ID. Пагинация. Модальный вывод курса валют при клике на дату в шапке."},{"id":"6","name":"MrMagamba","demoUrl":"https://mrmagamba.web.app/","gitUrl":"https://github.com/KostyanB/MrMagamba","imgSrc":"img/mrmagamba.jpg","stack":"React JS, Styled Components, Firebase, Google Auth, Nodemailer","description":"Pet-проект. Приложение для онлайн заказа из ресторана-бургерной. Регистрация через Google Auth, формирование корзины, отправка на сервер и подтверждение пользователю на e-mail."},{"id":"7","name":"Planctonics-chat","demoUrl":"https://planctonics-chat.web.app/","gitUrl":"https://github.com/KostyanB/PlanctonicsChat","imgSrc":"img/chat.jpg","stack":"React JS, Styled Components, async API, auth","description":"Прототип внутреннего чата компании с 2 разделами. Авторизация (используйте Вася или Маруся). Демо хранение в LocalStorage. Редактирование и удаление своих постов. Режим админа."},{"id":"8","name":"Fitness-body","demoUrl":"https://fitnessbody-1bf35.web.app","gitUrl":"https://github.com/KostyanB/FitnessBody","imgSrc":"img/fitness.jpg","stack":"Native JS, RestAPI","description":"Сайт фитнесс-клуба `Тело`. Слайдеры, модальные окна, калькулятор, валидация данных, отправка данных на сервер и уведомление пользователя."},{"id":"9","name":"Game-blast","demoUrl":"https://mygame-blast.web.app/","gitUrl":"https://github.com/KostyanB/gameBlast","imgSrc":"img/gameblast.jpg","stack":"Native JS, HTML5, CSS3","description":"Игра по мотивам популярных blast-games. В демо цель - набрать 100 очков за 25 ходов.  Расширенные настройки приложения в JSON файле. Пользователь настраивает размеры поля и количество цветов. Минимальное сжигание - 3 тайтла."},{"id":"10","name":"Venom-2","demoUrl":"https://venom2-promo.web.app/","gitUrl":"https://github.com/KostyanB/venom2","imgSrc":"img/venom.jpg","stack":"Native JS, HTML5, CSS3","description":"Промо-страница премьеры фильма Venom-2. Обратный отсчет времени до премьеры. Модальный агент - отправка заявки на билеты. Просмотр трейлера."},{"id":"11","name":"Calculator","demoUrl":"https://testcalc-f96a3.web.app/","gitUrl":"https://github.com/KostyanB/Calculator","imgSrc":"img/calc.jpg","stack":"Native JS, HTML5, CSS3 / SCSS","description":"Калькулятор. Ввод алгебраического выражения с экрана или клавиатуры. Операции +-*/ и скобки. 12 разрядов. Валидация ввода: не число, скобки, деление на 0. С клавиатуры `Backspase` и `Delete` удаление, `Esc` сброс, `Enter` расчет."},{"id":"12","name":"Personal Budget","demoUrl":"https://kostyanb.github.io/personalBudget","gitUrl":"https://github.com/KostyanB/personalBudget","imgSrc":"img/personal.jpg","stack":"Native JS, ООП, HTML5, CSS3","description":"Калькулятор личного бюджета. Расчет бюджета и срока накопления желаемой суммы на основании данных пользователя  о доходах, расходах, и банковском депозите."},{"id":"13","name":"3D-glo","demoUrl":"https://dglo-17cec.web.app/","gitUrl":"https://github.com/KostyanB/3Dglo","imgSrc":"img/3dglo.jpg","stack":"Native JS, Fetch API, HTML5, CSS3","description":"3D-glo классический сайт дизайн студии. Таймер обратного отсчета, слайдеры, калькулятор стоимости, маски и валидация ввода данных, взаимодействие с сервером."},{"id":"14","name":"ToDo","demoUrl":"https://todospa-b7372.web.app","gitUrl":"https://kostyanb.github.io/ToDo-SPA/","imgSrc":"img/todo.jpg","stack":"React JS, Redux/Toolkit, Styled Components, RestAPI","description":"Ну и куда же без ToDo-шки. Добавление, удаление, редактирование и перемещение между листами. В демо синхронизация с fake сервером. Прелоадер и обработка ошибок сервера с оповещением пользователя."},{"id":"15","name":"Chess Horse","demoUrl":"https://kostyanb.github.io/chessHorse/","gitUrl":"https://github.com/KostyanB/chessHorse","imgSrc":"img/chess.jpg","stack":"Native JS, HTML5, CSS3, drag&drop","description":"`Лошадью ходи...`. Расчет и подсветка возможных ходов шахматного `коня`. Перемещение через отслеживание позиции указателя."},{"id":"16","name":"Wildpotatos","demoUrl":"https://wildpotatos-53c4a.web.app/","gitUrl":"https://github.com/KostyanB/WildPotatos","imgSrc":"img/wild.jpg","stack":"Native JS, Fetch API, HTML5, CSS3, adaptive","description":"Имитация известного интернет-магазина W**dbe**ies. Загрузка товаров с сервера. Динамическое фильтрация карточек товаров. Управление корзиной. Отправка заказа на сервер. Валидация данных пользователя при отправке заказа."}]');
+var works_namespaceObject = JSON.parse('[{"id":"1","name":"Promo iPhone13","demoUrl":"https://iphone-promo.web.app/","gitUrl":"https://github.com/KostyanB/promo-iphone13","imgSrc":"img/iphone.jpg","stack":"React JS, SPA, Styled Components, React-Spring animation, React Router, Suspense loading, RestAPI","description":"`Promo iPhone13`. Single Page Application. Полностью реализована промо-страница. Выбор модели, просмотр характеристик, добавление Cross-sell товаров, отправка заказа."},{"id":"2","name":"Cinema-booker","demoUrl":"https://cinema-booker-51e5e.web.app/","gitUrl":"https://github.com/KostyanB/cinema","imgSrc":"img/cinema.jpg","stack":"React, SPA, Styled Components, Router, Hooks,  RestAPI","description":"`Cinema-booker`. Сайт кинотеатра. Реализован блок выбора сеанса и бронирования билетов. Сохранение брони в течение сессии. Синхронизация с сервером. Просмотр трейлера."},{"id":"3","name":"Lomoda","demoUrl":"https://lomoda-spa.firebaseapp.com/","gitUrl":"https://github.com/KostyanB/Lomoda-SPA","imgSrc":"img/lomoda.jpg","stack":"React JS, Redux/Toolkit, Styled Components, Router, Hooks, SCSS, SPA","description":"Pet-проект `Lomoda`. Приложение по дизайн-макету известного интернет-магазина. Загрузка товаров restAPI, формирование корзины и отправка заказа. Настройки приложения в json файле. Хранение локации и корзины в LocalStorage браузера."},{"id":"4","name":"Melody-Home","demoUrl":"https://melody-home-32b02.web.app/","gitUrl":"https://github.com/KostyanB/Melody-Home","imgSrc":"img/home.jpg","stack":"React JS, Styled Components, React Hooks, SVG","description":"Cайт продаж квартир ЖК `Мелодия`. Реализованы главная страница и модальное окно плана этажа. Интерактивный выбор этажа квартиры на этаже. Динамическое SVG."},{"id":"5","name":"Sorting tab","demoUrl":"https://sorting-tab.web.app/","gitUrl":"https://github.com/KostyanB/sorting-tab","imgSrc":"img/sorting.jpg","stack":"React JS, Recoil, Styled Components, React Animation, Drag Scroll, RestAPI, Dark theme","description":"`Sorting tab`. DragScroll. Поддержка темной темы. Загрузка данных по АПИ. Расчет и вывод суммарного времени посещений по дням и за месяц. Сортировка по столбцам. Фильтрация по имени / части имени и ID. Пагинация. Модальный вывод курса валют при клике на дату в шапке."},{"id":"17","name":"Diagram","demoUrl":"https://divi-test-task.web.app/","gitUrl":"https://github.com/KostyanB/3divi-test-task","imgSrc":"img/diagram.jpg","stack":"React JS, Redux/Toolkit, Styled Components, RestAPI","description":"Диаграмма времени посещений за неделю с разбивкой по возрасту пользователя и фильтрацией по ID девайса. Получение данных по api. Анимация перестроения диаграммы. Построение и анимация без использования сторонних библиотек."},{"id":"6","name":"MrMagamba","demoUrl":"https://mrmagamba.web.app/","gitUrl":"https://github.com/KostyanB/MrMagamba","imgSrc":"img/mrmagamba.jpg","stack":"React JS, Styled Components, Firebase, Google Auth, Nodemailer","description":"Pet-проект. Приложение для онлайн заказа из ресторана-бургерной. Регистрация через Google Auth, формирование корзины, отправка на сервер и подтверждение пользователю на e-mail."},{"id":"7","name":"Planctonics-chat","demoUrl":"https://planctonics-chat.web.app/","gitUrl":"https://github.com/KostyanB/PlanctonicsChat","imgSrc":"img/chat.jpg","stack":"React JS, Styled Components, async API, auth","description":"Прототип внутреннего чата компании с 2 разделами. Авторизация (используйте Вася или Маруся). Демо хранение в LocalStorage. Редактирование и удаление своих постов. Режим админа."},{"id":"8","name":"Fitness-body","demoUrl":"https://fitnessbody-1bf35.web.app","gitUrl":"https://github.com/KostyanB/FitnessBody","imgSrc":"img/fitness.jpg","stack":"Native JS, RestAPI","description":"Сайт фитнесс-клуба `Тело`. Слайдеры, модальные окна, калькулятор, валидация данных, отправка данных на сервер и уведомление пользователя."},{"id":"9","name":"Game-blast","demoUrl":"https://mygame-blast.web.app/","gitUrl":"https://github.com/KostyanB/gameBlast","imgSrc":"img/gameblast.jpg","stack":"Native JS, HTML5, CSS3","description":"Игра по мотивам популярных blast-games. В демо цель - набрать 100 очков за 25 ходов.  Расширенные настройки приложения в JSON файле. Пользователь настраивает размеры поля и количество цветов. Минимальное сжигание - 3 тайтла."},{"id":"10","name":"Venom-2","demoUrl":"https://venom2-promo.web.app/","gitUrl":"https://github.com/KostyanB/venom2","imgSrc":"img/venom.jpg","stack":"Native JS, HTML5, CSS3","description":"Промо-страница премьеры фильма Venom-2. Обратный отсчет времени до премьеры. Модальный агент - отправка заявки на билеты. Просмотр трейлера."},{"id":"11","name":"Calculator","demoUrl":"https://testcalc-f96a3.web.app/","gitUrl":"https://github.com/KostyanB/Calculator","imgSrc":"img/calc.jpg","stack":"Native JS, HTML5, CSS3 / SCSS","description":"Калькулятор. Ввод алгебраического выражения с экрана или клавиатуры. Операции +-*/ и скобки. 12 разрядов. Валидация ввода: не число, скобки, деление на 0. С клавиатуры `Backspase` и `Delete` удаление, `Esc` сброс, `Enter` расчет."},{"id":"12","name":"Personal Budget","demoUrl":"https://kostyanb.github.io/personalBudget","gitUrl":"https://github.com/KostyanB/personalBudget","imgSrc":"img/personal.jpg","stack":"Native JS, ООП, HTML5, CSS3","description":"Калькулятор личного бюджета. Расчет бюджета и срока накопления желаемой суммы на основании данных пользователя  о доходах, расходах, и банковском депозите."},{"id":"13","name":"3D-glo","demoUrl":"https://dglo-17cec.web.app/","gitUrl":"https://github.com/KostyanB/3Dglo","imgSrc":"img/3dglo.jpg","stack":"Native JS, Fetch API, HTML5, CSS3","description":"3D-glo классический сайт дизайн студии. Таймер обратного отсчета, слайдеры, калькулятор стоимости, маски и валидация ввода данных, взаимодействие с сервером."},{"id":"14","name":"ToDo","demoUrl":"https://todospa-b7372.web.app","gitUrl":"https://kostyanb.github.io/ToDo-SPA/","imgSrc":"img/todo.jpg","stack":"React JS, Redux/Toolkit, Styled Components, RestAPI","description":"Ну и куда же без ToDo-шки. Добавление, удаление, редактирование и перемещение между листами. В демо синхронизация с fake сервером. Прелоадер и обработка ошибок сервера с оповещением пользователя."},{"id":"15","name":"Chess Horse","demoUrl":"https://kostyanb.github.io/chessHorse/","gitUrl":"https://github.com/KostyanB/chessHorse","imgSrc":"img/chess.jpg","stack":"Native JS, HTML5, CSS3, drag&drop","description":"`Лошадью ходи...`. Расчет и подсветка возможных ходов шахматного `коня`. Перемещение через отслеживание позиции указателя."},{"id":"16","name":"Wildpotatos","demoUrl":"https://wildpotatos-53c4a.web.app/","gitUrl":"https://github.com/KostyanB/WildPotatos","imgSrc":"img/wild.jpg","stack":"Native JS, Fetch API, HTML5, CSS3, adaptive","description":"Имитация известного интернет-магазина W**dbe**ies. Загрузка товаров с сервера. Динамическое фильтрация карточек товаров. Управление корзиной. Отправка заказа на сервер. Валидация данных пользователя при отправке заказа."}]');
 ;// CONCATENATED MODULE: ./src/modules/drawWorks.js
-
 
 
 
@@ -8248,9 +8245,7 @@ var works_namespaceObject = JSON.parse('[{"id":"1","name":"Promo iPhone13","demo
 
 var drawWorks = function drawWorks() {
   var mainContainer = document.querySelector('.main__container');
-  mainContainer.innerHTML = works_namespaceObject.sort(function (a, b) {
-    return a.id - b.id;
-  }).reduce(function (acc, item) {
+  mainContainer.innerHTML = works_namespaceObject.reduce(function (acc, item) {
     var id = item.id,
         name = item.name,
         demoUrl = item.demoUrl,
@@ -8456,76 +8451,6 @@ module.exports = function (METHOD_NAME) {
 
 /***/ }),
 
-/***/ 9341:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-"use strict";
-
-var fails = __webpack_require__(7293);
-
-module.exports = function (METHOD_NAME, argument) {
-  var method = [][METHOD_NAME];
-  return !!method && fails(function () {
-    // eslint-disable-next-line no-useless-call,no-throw-literal -- required for testing
-    method.call(null, argument || function () { throw 1; }, 1);
-  });
-};
-
-
-/***/ }),
-
-/***/ 4362:
-/***/ (function(module) {
-
-// TODO: use something more complex like timsort?
-var floor = Math.floor;
-
-var mergeSort = function (array, comparefn) {
-  var length = array.length;
-  var middle = floor(length / 2);
-  return length < 8 ? insertionSort(array, comparefn) : merge(
-    mergeSort(array.slice(0, middle), comparefn),
-    mergeSort(array.slice(middle), comparefn),
-    comparefn
-  );
-};
-
-var insertionSort = function (array, comparefn) {
-  var length = array.length;
-  var i = 1;
-  var element, j;
-
-  while (i < length) {
-    j = i;
-    element = array[i];
-    while (j && comparefn(array[j - 1], element) > 0) {
-      array[j] = array[--j];
-    }
-    if (j !== i++) array[j] = element;
-  } return array;
-};
-
-var merge = function (left, right, comparefn) {
-  var llength = left.length;
-  var rlength = right.length;
-  var lindex = 0;
-  var rindex = 0;
-  var result = [];
-
-  while (lindex < llength || rindex < rlength) {
-    if (lindex < llength && rindex < rlength) {
-      result.push(comparefn(left[lindex], right[rindex]) <= 0 ? left[lindex++] : right[rindex++]);
-    } else {
-      result.push(lindex < llength ? left[lindex++] : right[rindex++]);
-    }
-  } return result;
-};
-
-module.exports = mergeSort;
-
-
-/***/ }),
-
 /***/ 7475:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -8719,28 +8644,6 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ 8886:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-var userAgent = __webpack_require__(8113);
-
-var firefox = userAgent.match(/firefox\/(\d+)/i);
-
-module.exports = !!firefox && +firefox[1];
-
-
-/***/ }),
-
-/***/ 256:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-var UA = __webpack_require__(8113);
-
-module.exports = /MSIE|Trident/.test(UA);
-
-
-/***/ }),
-
 /***/ 8113:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -8775,18 +8678,6 @@ if (v8) {
 }
 
 module.exports = version && +version;
-
-
-/***/ }),
-
-/***/ 8008:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-var userAgent = __webpack_require__(8113);
-
-var webkit = userAgent.match(/AppleWebKit\/(\d+)\./);
-
-module.exports = !!webkit && +webkit[1];
 
 
 /***/ }),
@@ -9978,116 +9869,6 @@ $({ target: 'Array', proto: true, forced: FORCED }, {
     }
     A.length = n;
     return A;
-  }
-});
-
-
-/***/ }),
-
-/***/ 2707:
-/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
-
-"use strict";
-
-var $ = __webpack_require__(2109);
-var aFunction = __webpack_require__(3099);
-var toObject = __webpack_require__(7908);
-var toLength = __webpack_require__(7466);
-var toString = __webpack_require__(1340);
-var fails = __webpack_require__(7293);
-var internalSort = __webpack_require__(4362);
-var arrayMethodIsStrict = __webpack_require__(9341);
-var FF = __webpack_require__(8886);
-var IE_OR_EDGE = __webpack_require__(256);
-var V8 = __webpack_require__(7392);
-var WEBKIT = __webpack_require__(8008);
-
-var test = [];
-var nativeSort = test.sort;
-
-// IE8-
-var FAILS_ON_UNDEFINED = fails(function () {
-  test.sort(undefined);
-});
-// V8 bug
-var FAILS_ON_NULL = fails(function () {
-  test.sort(null);
-});
-// Old WebKit
-var STRICT_METHOD = arrayMethodIsStrict('sort');
-
-var STABLE_SORT = !fails(function () {
-  // feature detection can be too slow, so check engines versions
-  if (V8) return V8 < 70;
-  if (FF && FF > 3) return;
-  if (IE_OR_EDGE) return true;
-  if (WEBKIT) return WEBKIT < 603;
-
-  var result = '';
-  var code, chr, value, index;
-
-  // generate an array with more 512 elements (Chakra and old V8 fails only in this case)
-  for (code = 65; code < 76; code++) {
-    chr = String.fromCharCode(code);
-
-    switch (code) {
-      case 66: case 69: case 70: case 72: value = 3; break;
-      case 68: case 71: value = 4; break;
-      default: value = 2;
-    }
-
-    for (index = 0; index < 47; index++) {
-      test.push({ k: chr + index, v: value });
-    }
-  }
-
-  test.sort(function (a, b) { return b.v - a.v; });
-
-  for (index = 0; index < test.length; index++) {
-    chr = test[index].k.charAt(0);
-    if (result.charAt(result.length - 1) !== chr) result += chr;
-  }
-
-  return result !== 'DGBEFHACIJK';
-});
-
-var FORCED = FAILS_ON_UNDEFINED || !FAILS_ON_NULL || !STRICT_METHOD || !STABLE_SORT;
-
-var getSortCompare = function (comparefn) {
-  return function (x, y) {
-    if (y === undefined) return -1;
-    if (x === undefined) return 1;
-    if (comparefn !== undefined) return +comparefn(x, y) || 0;
-    return toString(x) > toString(y) ? 1 : -1;
-  };
-};
-
-// `Array.prototype.sort` method
-// https://tc39.es/ecma262/#sec-array.prototype.sort
-$({ target: 'Array', proto: true, forced: FORCED }, {
-  sort: function sort(comparefn) {
-    if (comparefn !== undefined) aFunction(comparefn);
-
-    var array = toObject(this);
-
-    if (STABLE_SORT) return comparefn === undefined ? nativeSort.call(array) : nativeSort.call(array, comparefn);
-
-    var items = [];
-    var arrayLength = toLength(array.length);
-    var itemsLength, index;
-
-    for (index = 0; index < arrayLength; index++) {
-      if (index in array) items.push(array[index]);
-    }
-
-    items = internalSort(items, getSortCompare(comparefn));
-    itemsLength = items.length;
-    index = 0;
-
-    while (index < itemsLength) array[index] = items[index++];
-    while (index < arrayLength) delete array[index++];
-
-    return array;
   }
 });
 
