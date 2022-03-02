@@ -45,6 +45,15 @@
     "description": "`Sorting tab`. DragScroll. Поддержка темной темы. Загрузка данных по АПИ. Расчет и вывод суммарного времени посещений по дням и за месяц. Сортировка по столбцам. Фильтрация по имени / части имени и ID. Пагинация. Модальный вывод курса валют при клике на дату в шапке."
   },
   {
+    "id": "17",
+    "name": "Diagram",
+    "demoUrl": "https://divi-test-task.web.app/",
+    "gitUrl": "https://github.com/KostyanB/3divi-test-task",
+    "imgSrc": "img/diagram.jpg",
+    "stack": "React JS, Redux/Toolkit, Styled Components, RestAPI",
+    "description": "Диаграмма времени посещений за неделю с разбивкой по возрасту пользователя и фильтрацией по ID девайса. Получение данных по api. Анимация перестроения диаграммы. Построение и анимация без использования сторонних библиотек."
+  },
+  {
     "id": "6",
     "name": "MrMagamba",
     "demoUrl": "https://mrmagamba.web.app/",
