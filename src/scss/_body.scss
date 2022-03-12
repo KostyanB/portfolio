@@ -2,14 +2,14 @@
 body {
   min-width: 370px;
   font: {
-    family: 'CoFo Sans';
+    family: 'CoFo Sans', sans-serif;
     style: normal;
     weight: normal;
     size: $l-font;
   }
   color: $blue;
   line-height: 1.2;
-  background-image: url('img/back.jpg');
+  background-image: url('img/back.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;

@@ -15,9 +15,9 @@ module.exports = {
   output: {
     filename: `${generateFilename('js')}`,
     path: path.resolve(__dirname, './build'),
-    clean: true, // очистка бандлов
+    clean: true,
     environment: {
-      arrowFunction: false, // откл => old browser
+      arrowFunction: false,
     },
   },
   mode,
@@ -55,7 +55,7 @@ module.exports = {
                 {
                   useBuiltIns: 'usage',
                   corejs: {
-                    version: '3.8',
+                    version: '3.14',
                     proposals: true,
                   },
                 },

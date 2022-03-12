@@ -12,19 +12,19 @@ const drawWorks = () => {
         acc +
         `
           <!-- ${name} -->
-            <article class="works__box box${id}">
-              <img class="works__box_img" src="${imgSrc}" width="800" height="600" alt="${name}" loading="lazy"/>
-              <h2 class="works__box_title">
+          <article class="works__box box${id}">
+            <img class="works__box_img" src="${imgSrc}" width="800" height="600" alt="${name}" loading="lazy"/>
+            <h1 class="works__box_title">
               <a href="${demoUrl}" aria-label="Перейти на демо-сайт ${name}">
                 ${name}
               </a>
-            </h2>
+            </h1>
             <p class="works__box_description">
               ${description}
             </p>
-            <div class="works__box_stack">
+            <p class="works__box_stack">
               ${stack}
-            </div>
+            </p>
             <div class="works__box_actions">
               <a href="${demoUrl}" class="works__box_btn">
                 <svg class="demo-${name}">

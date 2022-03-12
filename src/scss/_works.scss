@@ -28,7 +28,6 @@
       background: black;
       opacity: 0.6;
       z-index: -1;
-      transition: opacity $transition-time;
     }
 
     &:hover &_title,
@@ -64,7 +63,7 @@
 
     &_stack,
     &_description {
-      transition: opacity, transform $transition-time;
+      transition: opacity $transition-time, transform $transition-time;
     }
 
     &_stack {
@@ -117,24 +116,38 @@
     }
 
     &_description {
+      position: relative;
       grid-area: description;
       grid-column: 1 / -1;
       place-self: end start;
+      user-select: none;
+      opacity: 0;
+      transform: translateY(100%);
       padding: $space-sm;
       font-size: $m-font;
       line-height: 1.2;
       font-style: italic;
       color: $dviol;
       text-align: center;
-      user-select: none;
-      background-color: $gray;
-      opacity: 0;
-      transform: translateY(100%);
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $gray;
+        z-index: -1;
+        transition: transform $transition-time;
+      }
 
       @media (max-width: 768px) {
-        font-size: $l-font;
         opacity: 1;
-        transform: translateY(0);
+        transform: none;
+        grid-row: 2;
+        padding: 5px 15px;
+        font-size: $l-font;
       }
     }
 
@@ -172,6 +185,20 @@
       height: 100%;
       z-index: -2;
       transition: transform $transition-time;
+    }
+
+    @media (max-width: 768px) {
+      row-gap: 15px;
+
+      &:hover &_description {
+        &::before {
+          transform: scaleX(1.05);
+        }
+      }
+
+      &:hover &_stack {
+        transform: translateY(-120%);
+      }
     }
   }
 }
