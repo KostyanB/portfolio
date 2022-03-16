@@ -1,155 +1,164 @@
 [
   {
-    "id": "1",
-    "name": "Promo iPhone13",
     "demoUrl": "https://iphone-promo.web.app/",
+    "description": "\"Promo iPhone13\". Single Page Application. Полностью реализована промо-страница. Выбор модели, просмотр характеристик, добавление Cross-sell товаров, отправка заказа.",
     "gitUrl": "https://github.com/KostyanB/promo-iphone13",
+    "id": "1",
     "imgSrc": "img/iphone.webp",
-    "stack": "React JS, SPA, Styled Components, React-Spring animation, React Router, Suspense loading, RestAPI",
-    "description": "`Promo iPhone13`. Single Page Application. Полностью реализована промо-страница. Выбор модели, просмотр характеристик, добавление Cross-sell товаров, отправка заказа."
+    "name": "Promo iPhone13",
+    "stack": "React JS, SPA, Styled Components, React-Spring animation, React Router, Suspense loading, RestAPI"
   },
   {
-    "id": "2",
-    "name": "Cinema-booker",
     "demoUrl": "https://cinema-booker-51e5e.web.app/",
+    "description": "\"Cinema-booker\". Сайт кинотеатра. Реализован блок выбора сеанса и бронирования билетов. Сохранение брони в течение сессии. Синхронизация с сервером. Просмотр трейлера.",
     "gitUrl": "https://github.com/KostyanB/cinema",
+    "id": "2",
     "imgSrc": "img/cinema.webp",
-    "stack": "React, SPA, Styled Components, Router, Hooks,  RestAPI",
-    "description": "`Cinema-booker`. Сайт кинотеатра. Реализован блок выбора сеанса и бронирования билетов. Сохранение брони в течение сессии. Синхронизация с сервером. Просмотр трейлера."
+    "name": "Cinema-booker",
+    "stack": "React, SPA, Styled Components, Router, Hooks,  RestAPI"
   },
   {
-    "id": "3",
-    "name": "Lomoda",
     "demoUrl": "https://lomoda-spa.firebaseapp.com/",
+    "description": "Pet-проект \"Lomoda\". Приложение по дизайн-макету известного интернет-магазина. Загрузка товаров restAPI, формирование корзины и отправка заказа. Настройки приложения в json файле. Хранение локации и корзины в LocalStorage браузера.",
     "gitUrl": "https://github.com/KostyanB/Lomoda-SPA",
+    "id": "3",
     "imgSrc": "img/lomoda.webp",
-    "stack": "React JS, Redux/Toolkit, Styled Components, Router, Hooks, SCSS, SPA",
-    "description": "Pet-проект `Lomoda`. Приложение по дизайн-макету известного интернет-магазина. Загрузка товаров restAPI, формирование корзины и отправка заказа. Настройки приложения в json файле. Хранение локации и корзины в LocalStorage браузера."
+    "name": "Lomoda",
+    "stack": "React JS, Redux/Toolkit, Styled Components, Router, Hooks, SCSS, SPA"
   },
   {
-    "id": "4",
-    "name": "Melody-Home",
     "demoUrl": "https://melody-home-32b02.web.app/",
+    "description": "Cайт продаж квартир ЖК \"Мелодия\". Реализованы главная страница и модальное окно плана этажа. Интерактивный выбор этажа квартиры на этаже. Динамическое SVG.",
     "gitUrl": "https://github.com/KostyanB/Melody-Home",
+    "id": "4",
     "imgSrc": "img/home.webp",
-    "stack": "React JS, Styled Components, React Hooks, SVG",
-    "description": "Cайт продаж квартир ЖК `Мелодия`. Реализованы главная страница и модальное окно плана этажа. Интерактивный выбор этажа квартиры на этаже. Динамическое SVG."
+    "name": "Melody-Home",
+    "stack": "React JS, Styled Components, React Hooks, SVG"
   },
   {
-    "id": "5",
-    "name": "Sorting tab",
     "demoUrl": "https://sorting-tab.web.app/",
+    "description": "\"Sorting tab\". DragScroll. Поддержка темной темы. Загрузка данных по АПИ. Вывод суммарного времени посещений по дням и за месяц. Сортировка по столбцам. Фильтрация по имени / части имени и ID. Пагинация. Модальный вывод курса валют при клике на дату в шапке.",
     "gitUrl": "https://github.com/KostyanB/sorting-tab",
+    "id": "5",
     "imgSrc": "img/sorting.webp",
-    "stack": "React JS, Recoil, Styled Components, React Animation, Drag Scroll, RestAPI, Dark theme",
-    "description": "`Sorting tab`. DragScroll. Поддержка темной темы. Загрузка данных по АПИ. Расчет и вывод суммарного времени посещений по дням и за месяц. Сортировка по столбцам. Фильтрация по имени / части имени и ID. Пагинация. Модальный вывод курса валют при клике на дату в шапке."
+    "name": "Sorting tab",
+    "stack": "React JS, Recoil, Styled Components, React Animation, Drag Scroll, RestAPI, Dark theme"
   },
   {
-    "id": "17",
-    "name": "Diagram",
     "demoUrl": "https://divi-test-task.web.app/",
+    "description": "Диаграмма времени посещений за неделю с разбивкой по возрасту пользователя и фильтрацией по ID девайса. Получение данных по api. Анимация перестроения диаграммы. Построение и анимация без использования сторонних библиотек.",
     "gitUrl": "https://github.com/KostyanB/3divi-test-task",
+    "id": "17",
     "imgSrc": "img/diagram.webp",
-    "stack": "React JS, Redux/Toolkit, Styled Components, RestAPI",
-    "description": "Диаграмма времени посещений за неделю с разбивкой по возрасту пользователя и фильтрацией по ID девайса. Получение данных по api. Анимация перестроения диаграммы. Построение и анимация без использования сторонних библиотек."
+    "name": "Diagram",
+    "stack": "React JS, Redux/Toolkit, Styled Components, RestAPI"
   },
   {
-    "id": "6",
-    "name": "MrMagamba",
     "demoUrl": "https://mrmagamba.web.app/",
+    "description": "Pet-проект. Приложение для онлайн заказа из ресторана-бургерной. Регистрация через Google Auth, формирование корзины, отправка на сервер и подтверждение пользователю на e-mail.",
     "gitUrl": "https://github.com/KostyanB/MrMagamba",
+    "id": "6",
     "imgSrc": "img/mrmagamba.webp",
-    "stack": "React JS, Styled Components, Firebase, Google Auth, Nodemailer",
-    "description": "Pet-проект. Приложение для онлайн заказа из ресторана-бургерной. Регистрация через Google Auth, формирование корзины, отправка на сервер и подтверждение пользователю на e-mail."
+    "name": "MrMagamba",
+    "stack": "React JS, Styled Components, Firebase, Google Auth, Nodemailer"
   },
   {
-    "id": "7",
-    "name": "Planctonics-chat",
     "demoUrl": "https://planctonics-chat.web.app/",
+    "description": "Прототип внутреннего чата компании с 2 разделами. Авторизация (используйте Вася или Маруся). Демо хранение в LocalStorage. Редактирование и удаление своих постов. Режим админа.",
     "gitUrl": "https://github.com/KostyanB/PlanctonicsChat",
+    "id": "7",
     "imgSrc": "img/chat.webp",
-    "stack": "React JS, Styled Components, async API, auth",
-    "description": "Прототип внутреннего чата компании с 2 разделами. Авторизация (используйте Вася или Маруся). Демо хранение в LocalStorage. Редактирование и удаление своих постов. Режим админа."
+    "name": "Planctonics-chat",
+    "stack": "React JS, Styled Components, async API, auth"
   },
   {
-    "id": "8",
-    "name": "Fitness-body",
     "demoUrl": "https://fitnessbody-1bf35.web.app",
+    "description": "Сайт фитнесс-клуба \"Тело\". Слайдеры, модальные окна, калькулятор, валидация данных, отправка данных на сервер и уведомление пользователя.",
     "gitUrl": "https://github.com/KostyanB/FitnessBody",
+    "id": "8",
     "imgSrc": "img/fitness.webp",
-    "stack": "Native JS, RestAPI",
-    "description": "Сайт фитнесс-клуба `Тело`. Слайдеры, модальные окна, калькулятор, валидация данных, отправка данных на сервер и уведомление пользователя."
+    "name": "Fitness-body",
+    "stack": "Native JS, RestAPI"
   },
   {
-    "id": "9",
-    "name": "Game-blast",
     "demoUrl": "https://mygame-blast.web.app/",
+    "description": "Игра по мотивам популярных blast-games. В демо цель - набрать 100 очков за 25 ходов.  Расширенные настройки приложения в JSON файле. Пользователь настраивает размеры поля и количество цветов. Минимальное сжигание - 3 тайтла.",
     "gitUrl": "https://github.com/KostyanB/gameBlast",
+    "id": "9",
     "imgSrc": "img/gameblast.webp",
-    "stack": "Native JS, HTML5, CSS3",
-    "description": "Игра по мотивам популярных blast-games. В демо цель - набрать 100 очков за 25 ходов.  Расширенные настройки приложения в JSON файле. Пользователь настраивает размеры поля и количество цветов. Минимальное сжигание - 3 тайтла."
+    "name": "Game-blast",
+    "stack": "Native JS, HTML5, CSS3"
   },
   {
-    "id": "10",
-    "name": "Venom-2",
     "demoUrl": "https://venom2-promo.web.app/",
+    "description": "Промо-страница премьеры фильма Venom-2. Обратный отсчет времени до премьеры. Модальный агент - отправка заявки на билеты. Просмотр трейлера.",
     "gitUrl": "https://github.com/KostyanB/venom2",
+    "id": "10",
     "imgSrc": "img/venom.webp",
-    "stack": "Native JS, HTML5, CSS3",
-    "description": "Промо-страница премьеры фильма Venom-2. Обратный отсчет времени до премьеры. Модальный агент - отправка заявки на билеты. Просмотр трейлера."
+    "name": "Venom-2",
+    "stack": "Native JS, HTML5, CSS3"
   },
   {
-    "id": "11",
-    "name": "Calculator",
     "demoUrl": "https://testcalc-f96a3.web.app/",
+    "description": "Калькулятор. Ввод алгебраического выражения с экрана или клавиатуры. Операции +-*/ и скобки. 12 разрядов. Валидация ввода: не число, скобки, деление на 0. С клавиатуры `Backspase` и `Delete` удаление, `Esc` сброс, `Enter` расчет.",
     "gitUrl": "https://github.com/KostyanB/Calculator",
+    "id": "11",
     "imgSrc": "img/calc.webp",
-    "stack": "Native JS, HTML5, CSS3 / SCSS",
-    "description": "Калькулятор. Ввод алгебраического выражения с экрана или клавиатуры. Операции +-*/ и скобки. 12 разрядов. Валидация ввода: не число, скобки, деление на 0. С клавиатуры `Backspase` и `Delete` удаление, `Esc` сброс, `Enter` расчет."
+    "name": "Calculator",
+    "stack": "Native JS, HTML5, CSS3 / SCSS"
   },
   {
-    "id": "12",
-    "name": "Personal Budget",
+    "demoUrl": "https://fibonnum.web.app/",
+    "description": "Приложение позволяет \"легко\" вычислять число Фибоначчи для практически любых исходных данных и ограничено только вычислительной мощностью компьютера, возможностями браузера и здравым смыслом.",
+    "gitUrl": "https://github.com/KostyanB/getFibon",
+    "id": "18",
+    "imgSrc": "img/fibon.webp",
+    "name": "Fibonacci",
+    "stack": "React JS, Hooks, Context, Styled Components, SASS"
+  },
+  {
     "demoUrl": "https://kostyanb.github.io/personalBudget",
+    "description": "Калькулятор личного бюджета. Расчет бюджета и срока накопления желаемой суммы на основании данных пользователя  о доходах, расходах, и банковском депозите.",
     "gitUrl": "https://github.com/KostyanB/personalBudget",
+    "id": "12",
     "imgSrc": "img/personal.webp",
-    "stack": "Native JS, ООП, HTML5, CSS3",
-    "description": "Калькулятор личного бюджета. Расчет бюджета и срока накопления желаемой суммы на основании данных пользователя  о доходах, расходах, и банковском депозите."
+    "name": "Personal Budget",
+    "stack": "Native JS, ООП, HTML5, CSS3"
   },
   {
-    "id": "13",
-    "name": "3D-glo",
     "demoUrl": "https://dglo-17cec.web.app/",
+    "description": "3D-glo классический сайт дизайн студии. Таймер обратного отсчета, слайдеры, калькулятор стоимости, маски и валидация ввода данных, взаимодействие с сервером.",
     "gitUrl": "https://github.com/KostyanB/3Dglo",
+    "id": "13",
     "imgSrc": "img/3dglo.webp",
-    "stack": "Native JS, Fetch API, HTML5, CSS3",
-    "description": "3D-glo классический сайт дизайн студии. Таймер обратного отсчета, слайдеры, калькулятор стоимости, маски и валидация ввода данных, взаимодействие с сервером."
+    "name": "3D-glo",
+    "stack": "Native JS, Fetch API, HTML5, CSS3"
   },
   {
-    "id": "14",
-    "name": "ToDo",
     "demoUrl": "https://todospa-b7372.web.app",
+    "description": "Ну и куда же без ToDo-шки. Добавление, удаление, редактирование и перемещение между листами. В демо синхронизация с fake сервером. Прелоадер и обработка ошибок сервера с оповещением пользователя.",
     "gitUrl": "https://kostyanb.github.io/ToDo-SPA/",
+    "id": "14",
     "imgSrc": "img/todo.webp",
-    "stack": "React JS, Redux/Toolkit, Styled Components, RestAPI",
-    "description": "Ну и куда же без ToDo-шки. Добавление, удаление, редактирование и перемещение между листами. В демо синхронизация с fake сервером. Прелоадер и обработка ошибок сервера с оповещением пользователя."
+    "name": "ToDo",
+    "stack": "React JS, Redux/Toolkit, Styled Components, RestAPI"
   },
   {
-    "id": "15",
-    "name": "Chess Horse",
     "demoUrl": "https://kostyanb.github.io/chessHorse/",
+    "description": "\"Лошадью ходи...\". Расчет и подсветка возможных ходов шахматного \"коня\". Перемещение через отслеживание позиции указателя.",
     "gitUrl": "https://github.com/KostyanB/chessHorse",
+    "id": "15",
     "imgSrc": "img/chess.webp",
-    "stack": "Native JS, HTML5, CSS3, drag&drop",
-    "description": "`Лошадью ходи...`. Расчет и подсветка возможных ходов шахматного `коня`. Перемещение через отслеживание позиции указателя."
+    "name": "Chess Horse",
+    "stack": "Native JS, HTML5, CSS3, drag&drop"
   },
   {
-    "id": "16",
-    "name": "Wildpotatos",
     "demoUrl": "https://wildpotatos-53c4a.web.app/",
+    "description": "Версия сайта известного интернет-магазина Wildbe**ies. Загрузка товаров с сервера. Динамическое фильтрация карточек товаров. Управление корзиной. Отправка заказа на сервер. Валидация данных пользователя при отправке заказа.",
     "gitUrl": "https://github.com/KostyanB/WildPotatos",
+    "id": "16",
     "imgSrc": "img/wild.webp",
-    "stack": "Native JS, Fetch API, HTML5, CSS3, adaptive",
-    "description": "Имитация известного интернет-магазина W**dbe**ies. Загрузка товаров с сервера. Динамическое фильтрация карточек товаров. Управление корзиной. Отправка заказа на сервер. Валидация данных пользователя при отправке заказа."
+    "name": "Wildpotatos",
+    "stack": "Native JS, Fetch API, HTML5, CSS3, adaptive"
   }
 ]
